@@ -11,6 +11,15 @@ using namespace std;
 int main()
 {
 
+    // Easy Random Function:
+    // 1.  Seed the random generator.  JUST DO THIS ONCE:
+    srand(time(0));
+    // 2.  Generate a random number
+    int max = 6;
+    int min = 1;
+    rand() % (max - min + 1) + min;
+
+
     Car myCar;
 
     myCar.setTires("Bridgestone");

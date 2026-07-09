@@ -1,6 +1,3 @@
-#ifndef CAR_H
-#define CAR_H
-
 #pragma once
 /*
 pragma once is Microsoft's way of making sure that none of 
@@ -47,4 +44,3 @@ public:
 	double getValue();
 };
 
-#endif

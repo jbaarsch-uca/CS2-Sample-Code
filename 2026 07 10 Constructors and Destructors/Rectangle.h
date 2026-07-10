@@ -1,6 +1,6 @@
 #ifndef RECTANGLE_H
 #define RECTANGLE_H
-
+#pragma once
 
 #include <iostream>
 using namespace std;
@@ -9,7 +9,7 @@ class Rectangle {
 private:
     int length;
     int width;
-    
+
 public:
     Rectangle();
     Rectangle(int l, int w);
@@ -18,8 +18,8 @@ public:
     int getWidth();
     int getLength();
     int getArea();
-    enum class DisplayOption {TEXT, ASCII_ART };
-    string getColor(); 
+    enum class DisplayType {TEXT, ASCII_ART};
+    string getColor();
 };
 
 

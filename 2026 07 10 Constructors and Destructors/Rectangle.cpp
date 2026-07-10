@@ -4,7 +4,6 @@ Rectangle::Rectangle() : length(1), width(1) {
 }
 
 Rectangle::Rectangle(int l, int w) {
-    
     length = l;
     width = w;
 }

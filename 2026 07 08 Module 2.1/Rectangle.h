@@ -18,7 +18,7 @@ public:
     int getWidth();
     int getLength();
     int getArea();
-
+    string getColor();
 };
 
 

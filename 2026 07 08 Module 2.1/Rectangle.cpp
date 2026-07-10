@@ -25,3 +25,6 @@ int Rectangle::getLength() {
 int Rectangle::getArea() {
     return length * width;
 }
+string Rectangle::getColor() {
+    return "red";
+}

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8d1315e6-8b27-4942-9f7c-6f9b3aa95387}</ProjectGuid>
-    <RootNamespace>_2026_07_08_Module_2_1</RootNamespace>
+    <ProjectGuid>{b3e86423-3321-4758-86cf-afea010dc3fc}</ProjectGuid>
+    <RootNamespace>_2026_07_10_Constructors_and_Destructors</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,14 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Car.cpp" />
-    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="..\2026 07 09 Module 2.2\Car.cpp" />
+    <ClCompile Include="..\2026 07 09 Module 2.2\Die.cpp" />
     <ClCompile Include="Program One.cpp" />
     <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="RectangleConsole.cpp" />
+    <ClCompile Include="RectangleDriver.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Car.h" />
-    <ClInclude Include="Circle.h" />
+    <ClInclude Include="..\2026 07 09 Module 2.2\Car.h" />
+    <ClInclude Include="..\2026 07 09 Module 2.2\Die.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="RectangleConsole.h" />
+    <ClInclude Include="RectangleDriver.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,5 +1,4 @@
-#ifndef CAR
-#define CAR
+#pragma once
 /*
 pragma once is Microsoft's way of making sure that none of 
  the h files refer to each other in endless loops or redefine
@@ -45,4 +44,3 @@ public:
 	double getValue();
 };
 
-#endif

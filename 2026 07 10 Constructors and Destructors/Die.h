@@ -1,6 +1,4 @@
-#ifndef DIE
-#define DIE
-
+#pragma once
 #include <iostream>
 class Die
 {
@@ -19,4 +17,3 @@ public:
 
 };
 
-#endif

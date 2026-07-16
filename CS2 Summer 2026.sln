@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2026 0714 Mod 2.5", "2026 0
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClassSamples", "ClassSamples\ClassSamples.vcxproj", "{6318D494-7F88-4342-AC35-3254F2681EAF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2026 07 16 Module 3.2", "2026 07 16 Module 3.2\2026 07 16 Module 3.2.vcxproj", "{8E0F8868-EEBA-4FAE-9920-405F8FC4CC45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{6318D494-7F88-4342-AC35-3254F2681EAF}.Release|x64.Build.0 = Release|x64
 		{6318D494-7F88-4342-AC35-3254F2681EAF}.Release|x86.ActiveCfg = Release|Win32
 		{6318D494-7F88-4342-AC35-3254F2681EAF}.Release|x86.Build.0 = Release|Win32
+		{8E0F8868-EEBA-4FAE-9920-405F8FC4CC45}.Debug|x64.ActiveCfg = Debug|x64
+		{8E0F8868-EEBA-4FAE-9920-405F8FC4CC45}.Debug|x64.Build.0 = Debug|x64
+		{8E0F8868-EEBA-4FAE-9920-405F8FC4CC45}.Debug|x86.ActiveCfg = Debug|Win32
+		{8E0F8868-EEBA-4FAE-9920-405F8FC4CC45}.Debug|x86.Build.0 = Debug|Win32
+		{8E0F8868-EEBA-4FAE-9920-405F8FC4CC45}.Release|x64.ActiveCfg = Release|x64
+		{8E0F8868-EEBA-4FAE-9920-405F8FC4CC45}.Release|x64.Build.0 = Release|x64
+		{8E0F8868-EEBA-4FAE-9920-405F8FC4CC45}.Release|x86.ActiveCfg = Release|Win32
+		{8E0F8868-EEBA-4FAE-9920-405F8FC4CC45}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

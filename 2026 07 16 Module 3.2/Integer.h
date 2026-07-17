@@ -9,11 +9,13 @@ public:
 	Integer();
 	Integer(int i);
 	Integer(const Integer& i);
-	Integer operator=(Integer& right);
+	//Integer operator=(Integer& right);
 	Integer operator+(Integer& otherInt);
 	Integer operator-(Integer& otherInt);
 	Integer operator*(Integer& otherInt);
 	Integer operator/(Integer& otherInt);
+	Integer operator++(int);
+	Integer operator++();
 
 	friend std::ostream& operator<<(std::ostream& o, Integer thisInt);
 };

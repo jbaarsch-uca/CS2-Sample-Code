@@ -13,6 +13,7 @@ public:
 	Roster(string n);
 	Roster(string n, Student* s, int size);
 	Roster(const Roster& roster);
+	Roster(Roster&& roster);
 	~Roster();
 	string getCourseName();
 	void setCourseName(string name);
@@ -23,10 +24,11 @@ public:
 	Student* getStudent(int index);
 	void dropStudent(Student s);
 	Roster& operator=(Roster& right);
+	Roster& operator=(Roster&& right);
 	Roster& operator+(Roster& otherRoster);
 	Roster operator-(Roster& otherRoster);
 	Roster operator==(Roster& otherRoster);
-	Student operator[](const int & sub)
+	Student operator[](const int &sub);
 
 
 

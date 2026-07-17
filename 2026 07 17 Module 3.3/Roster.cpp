@@ -20,6 +20,15 @@ Roster::Roster(const Roster& roster) {
 	for (int i = 0; i < size; i++)
 		students[i] = roster.students[i];
 }
+Roster::Roster(Roster&& roster) {
+	courseName = roster.courseName;
+	size = roster.size;
+	students = new Student[size];
+	for (int i = 0; i < size; i++)
+		students[i] = roster.students[i];
+}
+
+
 Roster::~Roster() {
 	delete[] students;
 }
@@ -107,4 +116,16 @@ Student Roster::operator[](const int& sub) {
 		throw new std::out_of_range("out of range error!");
 	return students[sub];
 	
+}
+
+Roster& Roster::operator=(Roster&& right) {
+	if (this != &right) {
+		delete[] students;   // delete current students
+		courseName = right.courseName;  // transfer normal data
+		size = right.size;
+		students = new Student[size];  // create new dynamically allocated array
+		for (int i = 0; i < size; i++)
+			students[i] = right.students[i]; // transfer students
+	}
+	return *this;
 }

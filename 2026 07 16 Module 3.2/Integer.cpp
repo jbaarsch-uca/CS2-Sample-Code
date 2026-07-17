@@ -13,10 +13,10 @@ Integer::Integer(const Integer& i) {
 	num = i.num;
 }
 
-Integer Integer::operator=(Integer& right) {
-	num = right.num;
-	return *this;
-}
+//Integer Integer::operator=(Integer& right) {
+//	num = right.num;
+//	return *this;
+//}
 
 Integer Integer::operator+(Integer& otherInt) {
 	Integer number(num + otherInt.num);
@@ -38,4 +38,15 @@ Integer Integer::operator/(Integer& otherInt) {
 std::ostream& operator<<(std::ostream& o, Integer thisInt) {
 	o << thisInt.num;
 	return o;
+}
+
+Integer Integer::operator++() {
+	num++;
+	return *this;
+}
+
+Integer Integer::operator++(int i) {
+	Integer result(num);
+	num++;
+	return result;
 }

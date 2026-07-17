@@ -1,33 +1,15 @@
 // Name:  Jon Baarsch
 // Class: CS2
 // Term:  Summer, 2026
-// Created: 7/16/2026 11:14:41 AM
+// Created: 7/17/2026 11:39:04 AM
 
 #include <iostream>
-#include "Integer.h"
 #include "Roster.h"
+#include "Student.h"
 using namespace std;
 
 int main()
 {
-    Integer num1(5);
-    Integer num2(3);
-    
-    cout << num1 << endl;
-    cout << num2 << endl;
-
-    cout << ++num2 << endl;
-    cout << num2++ << endl;
-    cout << num2 << endl;
-    
-    cout << num1 + num2 << endl;
-    /*
-    cout << "Addition: " << num1 + num2 << endl;
-    cout << "Subtraction: " << num1 - num2 << endl;
-    cout << "Multiplication: " << num1 * num2 << endl;
-    cout << "Division: " << num1 / num2 << endl;
-    */
-
     Student* list1 = new Student[2];
     list1[0] = Student("Josiah", 1, "Computer Science");
     list1[1] = Student("Ashanti", 2, "Computer Science");
@@ -53,8 +35,7 @@ int main()
 
     Roster cs3;
     cs3 = cs1 + cs2;
-    
+
     for (int i = 0; i < cs3.getSize(); i++)
         cout << cs3.getStudent(i)->getName() << endl;
-
 }

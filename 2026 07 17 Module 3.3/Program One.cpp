@@ -6,10 +6,23 @@
 #include <iostream>
 #include "Roster.h"
 #include "Student.h"
+#include "Cat.h"
+#include "Food.h"
 using namespace std;
 
 int main()
 {
+
+    Cat myCat("Shadow");
+    //Cat yourCat = myCat;
+
+    //myCat = yourCat;
+
+    cout << myCat;
+    string sentence = myCat;
+
+
+
     Student* list1 = new Student[2];
     list1[0] = Student("Josiah", 1, "Computer Science");
     list1[1] = Student("Ashanti", 2, "Computer Science");

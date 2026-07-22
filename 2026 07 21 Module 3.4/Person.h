@@ -8,6 +8,7 @@ class Person
 {
 private:
    char *name;
+   
 public:
    // Default constructor
 	Person();

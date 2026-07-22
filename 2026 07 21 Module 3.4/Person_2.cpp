@@ -28,7 +28,10 @@ Person_2::Person_2(const Person_2& obj)
 Person_2::Person_2(Person_2&& temp)
 {  
     cout << "*** move constructor ***\n";
+    //swap(name, temp.name);
+    
     // Steal the name pointer from temp.
+    
     name = temp.name;
 
     // Nullify the temp object's name pointer.

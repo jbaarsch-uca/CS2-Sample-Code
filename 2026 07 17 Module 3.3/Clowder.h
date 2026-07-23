@@ -1,6 +1,7 @@
 #pragma once
 #include "Cat.h"
 #include <iostream>
+class Cat;
 class Clowder
 {
 private:

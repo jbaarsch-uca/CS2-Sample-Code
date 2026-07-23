@@ -15,45 +15,39 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Roster.cpp">
+    <ClCompile Include="Program One.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Student.cpp">
+    <ClCompile Include="Car.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Cat.cpp">
+    <ClCompile Include="Vehicle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Food.cpp">
+    <ClCompile Include="Automobile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Clowder.cpp">
+    <ClCompile Include="Hatchback.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StudentTestScores.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="HondaFit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Roster.h">
+    <ClInclude Include="Car.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Student.h">
+    <ClInclude Include="Vehicle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Cat.h">
+    <ClInclude Include="Automobile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Food.h">
+    <ClInclude Include="Hatchback.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Clowder.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="StudentTestScores.h">
+    <ClInclude Include="HondaFit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

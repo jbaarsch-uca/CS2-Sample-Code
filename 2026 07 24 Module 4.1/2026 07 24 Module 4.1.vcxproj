@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bfaddf98-7781-4611-b8b1-6dc585c6de9c}</ProjectGuid>
-    <RootNamespace>_2026_07_17_Module_3_3</RootNamespace>
+    <ProjectGuid>{ac4ef618-fd91-4c6f-ad44-54660c79b405}</ProjectGuid>
+    <RootNamespace>_2026_07_24_Module_4_1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,21 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Cat.cpp" />
-    <ClCompile Include="Clowder.cpp" />
-    <ClCompile Include="Food.cpp" />
-    <ClCompile Include="Roster.cpp" />
-    <ClCompile Include="Source.cpp" />
-    <ClCompile Include="Student.cpp" />
-    <ClCompile Include="StudentTestScores.cpp" />
+    <ClCompile Include="Automobile.cpp" />
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="Hatchback.cpp" />
+    <ClCompile Include="HondaFit.cpp" />
+    <ClCompile Include="Program One.cpp" />
+    <ClCompile Include="Vehicle.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Cat.h" />
-    <ClInclude Include="Clowder.h" />
-    <ClInclude Include="Food.h" />
-    <ClInclude Include="Roster.h" />
-    <ClInclude Include="Student.h" />
-    <ClInclude Include="StudentTestScores.h" />
+    <ClInclude Include="Automobile.h" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="Hatchback.h" />
+    <ClInclude Include="HondaFit.h" />
+    <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -4,7 +4,7 @@
 #include "Clowder.h"
 using namespace std;
 
-
+class Clowder;
 class Cat
 
 

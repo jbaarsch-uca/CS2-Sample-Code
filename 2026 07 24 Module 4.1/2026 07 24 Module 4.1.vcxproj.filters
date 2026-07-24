@@ -13,42 +13,78 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Dogs">
+      <UniqueIdentifier>{0fa3da6a-d4ac-463f-9a9a-f5e3c9f716d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cars">
+      <UniqueIdentifier>{fe1a6a22-7e84-4633-80f2-27bc241815ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dogs">
+      <UniqueIdentifier>{1217694d-1937-433e-8433-b5a4a81f7979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cars">
+      <UniqueIdentifier>{dc305038-f2a4-4d06-b4de-5d47233b9332}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Program One.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Car.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Dog.cpp">
+      <Filter>Source Files\Dogs</Filter>
     </ClCompile>
-    <ClCompile Include="Vehicle.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="GuardDog.cpp">
+      <Filter>Source Files\Dogs</Filter>
+    </ClCompile>
+    <ClCompile Include="HuntingDog.cpp">
+      <Filter>Source Files\Dogs</Filter>
+    </ClCompile>
+    <ClCompile Include="LapDog.cpp">
+      <Filter>Source Files\Dogs</Filter>
     </ClCompile>
     <ClCompile Include="Automobile.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Cars</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Source Files\Cars</Filter>
     </ClCompile>
     <ClCompile Include="Hatchback.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Cars</Filter>
     </ClCompile>
     <ClCompile Include="HondaFit.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Cars</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>Source Files\Cars</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Car.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Dog.h">
+      <Filter>Header Files\Dogs</Filter>
     </ClInclude>
-    <ClInclude Include="Vehicle.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="GuardDog.h">
+      <Filter>Header Files\Dogs</Filter>
+    </ClInclude>
+    <ClInclude Include="HuntingDog.h">
+      <Filter>Header Files\Dogs</Filter>
+    </ClInclude>
+    <ClInclude Include="LapDog.h">
+      <Filter>Header Files\Dogs</Filter>
     </ClInclude>
     <ClInclude Include="Automobile.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Cars</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Header Files\Cars</Filter>
     </ClInclude>
     <ClInclude Include="Hatchback.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Cars</Filter>
     </ClInclude>
     <ClInclude Include="HondaFit.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Cars</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>Header Files\Cars</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

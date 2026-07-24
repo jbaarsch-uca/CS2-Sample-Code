@@ -129,16 +129,24 @@
   <ItemGroup>
     <ClCompile Include="Automobile.cpp" />
     <ClCompile Include="Car.cpp" />
+    <ClCompile Include="Dog.cpp" />
+    <ClCompile Include="GuardDog.cpp" />
     <ClCompile Include="Hatchback.cpp" />
     <ClCompile Include="HondaFit.cpp" />
+    <ClCompile Include="HuntingDog.cpp" />
+    <ClCompile Include="LapDog.cpp" />
     <ClCompile Include="Program One.cpp" />
     <ClCompile Include="Vehicle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Automobile.h" />
     <ClInclude Include="Car.h" />
+    <ClInclude Include="Dog.h" />
+    <ClInclude Include="GuardDog.h" />
     <ClInclude Include="Hatchback.h" />
     <ClInclude Include="HondaFit.h" />
+    <ClInclude Include="HuntingDog.h" />
+    <ClInclude Include="LapDog.h" />
     <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

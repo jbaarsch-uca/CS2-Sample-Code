@@ -5,8 +5,9 @@ Automobile::Automobile() : Automobile("V4", 2, 0) {
 
 }
 Automobile::Automobile(std::string engine, int passengerCapacity,
-	double speed) : Vehicle(passengerCapacity, speed), numberOfWheels(4)
+	double speed) : numberOfWheels(4), Vehicle(passengerCapacity, speed)
 {
+	
 	this->engine = engine;
 	std::cout << "Constructing Automobile...." << std::endl;
 }

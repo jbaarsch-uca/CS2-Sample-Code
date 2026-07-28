@@ -7,7 +7,8 @@ private:
 public:
     LapDog();
     LapDog(std::string name, int age);
-   virtual  std::string doTrick();
+    
+    std::string doTrick();
 
 };
 

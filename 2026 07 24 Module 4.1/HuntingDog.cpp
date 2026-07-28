@@ -9,5 +9,6 @@ HuntingDog::HuntingDog(std::string name, int age) :
 
 }
 std::string HuntingDog::doTrick() {
+	//return this->Dog::doTrick();
 	return this->getName() + " runs after its quarry and brings it back without mangling.";
 }

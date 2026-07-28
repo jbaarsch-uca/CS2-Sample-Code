@@ -4,9 +4,13 @@ class HuntingDog :
     public Dog
 {
 private:
+    //Dog* innerDog = new Dog;
 public:
     HuntingDog();
     HuntingDog(std::string name, int age);
-    virtual std::string doTrick();
+    ~HuntingDog() {
+        
+    }
+    std::string doTrick() final;
 };
 

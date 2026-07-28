@@ -12,12 +12,13 @@
 #include "Dog.h";
 #include "HuntingDog.h"
 #include "LapDog.h"
+#include "GuardDog.h"
 using namespace std;
 
 int main()
 {
 
-    Dog* loyalPup = new Dog;
+    Dog* loyalPup = new HuntingDog;
     HuntingDog* athleticPup = new HuntingDog;
     LapDog* littlePup = new LapDog;
 
@@ -25,19 +26,25 @@ int main()
     cout << athleticPup->doTrick() << endl;
     cout << littlePup->doTrick() << endl << endl;
 
+    GuardDog angryPup;
+    
     Dog* kennel[3];
-    kennel[0] = new Dog;
+    kennel[0] = new HuntingDog;
     kennel[1] = new HuntingDog;
     kennel[2] = new LapDog;
 
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 3; i++) {
         cout << kennel[i]->doTrick() << endl;
+        delete kennel[i];
+    }
+
+    
 
     cout << loyalPup->doTrick() << endl;
     cout << athleticPup->doTrick() << endl;
     cout << littlePup->doTrick() << endl << endl;
 
-
+    delete athleticPup;
 
 
     /*

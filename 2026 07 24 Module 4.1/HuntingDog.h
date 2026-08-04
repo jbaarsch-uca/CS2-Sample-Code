@@ -1,6 +1,6 @@
 #pragma once
 #include "Dog.h"
-class HuntingDog :
+class HuntingDog:
     public Dog
 {
 private:
@@ -11,6 +11,6 @@ public:
     ~HuntingDog() {
         
     }
-    std::string doTrick() final;
+    std::string doTrick();
 };
 

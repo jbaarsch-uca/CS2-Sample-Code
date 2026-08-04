@@ -1,6 +1,7 @@
 #pragma once
+
 #include <iostream>
-class Dog
+class Dog 
 {
 private:
 	std::string name;
@@ -15,7 +16,7 @@ public:
 	std::string getName();
 	void setAge(int age);
 	void setName(std::string name);
-	virtual std::string doTrick() =0;
+	virtual std::string doTrick();
 
 };
 

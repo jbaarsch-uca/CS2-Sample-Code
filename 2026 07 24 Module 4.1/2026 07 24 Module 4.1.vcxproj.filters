@@ -25,11 +25,14 @@
     <Filter Include="Source Files\Cars">
       <UniqueIdentifier>{dc305038-f2a4-4d06-b4de-5d47233b9332}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Adventures">
+      <UniqueIdentifier>{c6202c37-5d8c-4aa5-ba33-aebc27e5a420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Adventures">
+      <UniqueIdentifier>{542642d7-2176-4638-b9dc-305d5d4e41c6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Program One.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Dog.cpp">
       <Filter>Source Files\Dogs</Filter>
     </ClCompile>
@@ -56,6 +59,24 @@
     </ClCompile>
     <ClCompile Include="Vehicle.cpp">
       <Filter>Source Files\Cars</Filter>
+    </ClCompile>
+    <ClCompile Include="Retriever.cpp">
+      <Filter>Source Files\Dogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Adventurer.cpp">
+      <Filter>Source Files\Adventures</Filter>
+    </ClCompile>
+    <ClCompile Include="Companion.cpp">
+      <Filter>Source Files\Adventures</Filter>
+    </ClCompile>
+    <ClCompile Include="Falcon.cpp">
+      <Filter>Source Files\Adventures</Filter>
+    </ClCompile>
+    <ClCompile Include="Wolf.cpp">
+      <Filter>Source Files\Adventures</Filter>
+    </ClCompile>
+    <ClCompile Include="exam2.cpp">
+      <Filter>Source Files\Adventures</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +106,21 @@
     </ClInclude>
     <ClInclude Include="Vehicle.h">
       <Filter>Header Files\Cars</Filter>
+    </ClInclude>
+    <ClInclude Include="Companion.h">
+      <Filter>Header Files\Adventures</Filter>
+    </ClInclude>
+    <ClInclude Include="Adventurer.h">
+      <Filter>Header Files\Adventures</Filter>
+    </ClInclude>
+    <ClInclude Include="Falcon.h">
+      <Filter>Header Files\Adventures</Filter>
+    </ClInclude>
+    <ClInclude Include="Wolf.h">
+      <Filter>Header Files\Adventures</Filter>
+    </ClInclude>
+    <ClInclude Include="Retriever.h">
+      <Filter>Header Files\Dogs</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

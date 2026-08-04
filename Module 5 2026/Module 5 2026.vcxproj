@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ac4ef618-fd91-4c6f-ad44-54660c79b405}</ProjectGuid>
-    <RootNamespace>_2026_07_24_Module_4_1</RootNamespace>
+    <ProjectGuid>{222f4552-cd33-4ff2-9a17-2a22f6da4187}</ProjectGuid>
+    <RootNamespace>Module_5_2026</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,37 +128,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Adventurer.cpp" />
-    <ClCompile Include="Automobile.cpp" />
-    <ClCompile Include="Car.cpp" />
-    <ClCompile Include="Companion.cpp" />
-    <ClCompile Include="Dog.cpp" />
-    <ClCompile Include="exam2.cpp" />
-    <ClCompile Include="Falcon.cpp" />
-    <ClCompile Include="GuardDog.cpp" />
-    <ClCompile Include="Hatchback.cpp" />
-    <ClCompile Include="HondaFit.cpp" />
-    <ClCompile Include="HuntingDog.cpp" />
-    <ClCompile Include="LapDog.cpp" />
-    <ClCompile Include="Retriever.cpp" />
-    <ClCompile Include="Vehicle.cpp" />
-    <ClCompile Include="Wolf.cpp" />
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="EvenEater.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Stack.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Adventurer.h" />
-    <ClInclude Include="Automobile.h" />
-    <ClInclude Include="Car.h" />
-    <ClInclude Include="Companion.h" />
-    <ClInclude Include="Dog.h" />
-    <ClInclude Include="Falcon.h" />
-    <ClInclude Include="GuardDog.h" />
-    <ClInclude Include="Hatchback.h" />
-    <ClInclude Include="HondaFit.h" />
-    <ClInclude Include="HuntingDog.h" />
-    <ClInclude Include="LapDog.h" />
-    <ClInclude Include="Retriever.h" />
-    <ClInclude Include="Vehicle.h" />
-    <ClInclude Include="Wolf.h" />
+    <ClCompile Include="EvenEater.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="Pr16-5.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Stack.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

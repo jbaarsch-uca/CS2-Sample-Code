@@ -13,12 +13,59 @@ void initializeRectangle(Rectangle* rect);
 template <class T> vector<T> box(T contents);
 
 template <class T> T maxValue(T a, T b);
+
 template <class T> void printArray(T arr[], int size);
 
+long long factorial(int number) {
+    
+    if (number == 0)
+        return 1;
+    return number * factorial(number - 1);
+}
+
+int fib(int n)
+{
+    if (n <= 0)
+        return 0;                       // Base case
+    else if (n == 1)
+        return 1;                       // Base case
+    else
+        return fib(n - 1) + fib(n - 2); // Recursive case
+}
+
+void quickSort(int[], int, int);
+int partition(int[], int, int);
+void swap(int&, int&);
+
+
+// 4!  = 4 * 3 * 2 * 1 == 4 * 3!
 
 int main()
 {
 
+    cout << factorial(13) << endl;
+    
+    for (int i = 1; i <= 19; i++)
+        cout << fib(i) << " ";
+    cout << endl;
+    const int SIZE = 10;  // Array size
+    int count;            // Loop counter
+    int array[SIZE] = { 7, 3, 9, 2, 0, 1, 8, 4, 6, 5 };
+
+    // Display the array contents.
+    for (count = 0; count < SIZE; count++)
+        cout << array[count] << " ";
+    cout << endl;
+
+    // Sort the array.
+    quickSort(array, 0, SIZE - 1);
+
+    // Display the array contents.
+    for (count = 0; count < SIZE; count++)
+        cout << array[count] << " ";
+    cout << endl;
+
+    /*
     Matrix<string> numbers(3, 4);
     for (int r = 0; r < 3; r++)
         for (int c = 0; c < 4; c++) {
@@ -170,4 +217,65 @@ template <class T> void printArray(T arr[], int size) {
     for (int i = 0; i < size; i++) {
         cout << arr[i] << endl;
     }
+}
+
+
+//************************************************
+// quickSort uses the quicksort algorithm to     *
+// sort set, from set[start] through set[end].   *
+//************************************************
+
+void quickSort(int set[], int start, int end)
+{
+    int pivotPoint;
+    
+    if (start < end)
+    {
+        // Get the pivot point.
+        pivotPoint = partition(set, start, end);
+        // Sort the first sub list.
+        quickSort(set, start, pivotPoint - 1);
+        // Sort the second sub list.
+        quickSort(set, pivotPoint + 1, end);
+    }
+}
+
+//**********************************************************
+// partition selects the value in the middle of the        *
+// array set as the pivot. The list is rearranged so       *
+// all the values less than the pivot are on its left      *
+// and all the values greater than pivot are on its right. *
+//**********************************************************
+
+int partition(int set[], int start, int end)
+{
+    int pivotValue, pivotIndex, mid;
+
+    mid = (start + end) / 2;
+    swap(set[start], set[mid]);
+    pivotIndex = start;
+    pivotValue = set[start];
+    for (int scan = start + 1; scan <= end; scan++)
+    {
+        if (set[scan] < pivotValue)
+        {
+            pivotIndex++;
+            swap(set[pivotIndex], set[scan]);
+        }
+    }
+    swap(set[start], set[pivotIndex]);
+    return pivotIndex;
+}
+
+//**********************************************
+// swap simply exchanges the contents of       *
+// value1 and value2.                          *
+//**********************************************
+
+void swap(int& value1, int& value2)
+{
+    int temp = value1;
+
+    value1 = value2;
+    value2 = temp;
 }
